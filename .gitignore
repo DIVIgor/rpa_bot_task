@@ -1,2 +1,5 @@
-output/
 env/
+output/
+zip/
+*tester.py
+*log.txt

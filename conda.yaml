@@ -5,4 +5,8 @@ dependencies:
   - python=3.7.5
   - pip=20.1
   - pip:
-      - rpaframework[aws]==12.1.1
+      - rpaframework==12.1.1
+      - robotframework-browser==11.1.1
+      - PyPDF2
+rccPostInstall:
+  - rfbrowser init
