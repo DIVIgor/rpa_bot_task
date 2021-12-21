@@ -182,7 +182,7 @@ def main():
     # base url
     URL = 'https://itdashboard.gov/'
     # path
-    output_folder = 'test_output'
+    output_folder = 'output'
     path = fs_lib.absolute_path('.') + f'\\{output_folder}\\'
     # locators
     dive_in_locator = "//a[@href='#home-dive-in']"
